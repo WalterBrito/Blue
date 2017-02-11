@@ -37,7 +37,7 @@
 
   .list_actions {
     font-size:    x-small;
-    text-align:   right;
+    text-align:   justify;
     padding-left: 1em;
   }
 
@@ -48,4 +48,14 @@
   .list_line_odd {
     background:   #f8b0f8;
   }
+}
+
+p, div.price_line {
+  margin-left: 100px;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+
+  form, div {
+    display: inline;
+    }
 }

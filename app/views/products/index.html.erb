@@ -1,7 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Products</h1>
-
+<h1>
+  <%= link_to 'Shop', main_pages_path %>
+  Products  
+</h1>
 <table>
   <thead>
     <tr>
@@ -27,7 +29,3 @@
     <% end %>
   </tbody>
 </table>
-
-<br>
-
-<%= link_to 'New Product', new_product_path %>

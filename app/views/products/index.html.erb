@@ -62,7 +62,8 @@
   <% end %>
 <% end %>
 
-<!--<table>
+<!-- Edit Product Cart /  Edita o produto no carrinho -->
+<table>
   <% @products.each do |product| %>
     <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
       <td>
@@ -85,4 +86,6 @@
   <% end %>
 </table>
 
-<br/>-->
+<br/>
+
+<%= link_to 'New Product', new_product_path %>
